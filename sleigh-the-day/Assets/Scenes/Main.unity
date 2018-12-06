@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45123446, g: 0.5009513, b: 0.57354957, a: 1}
+  m_IndirectSpecularColor: {r: 0.45123422, g: 0.50095135, b: 0.5735496, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1032,7 +1032,7 @@ Transform:
   - {fileID: 644518201}
   - {fileID: 1056151340}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &439245543
 GameObject:
@@ -2005,7 +2005,7 @@ RectTransform:
   - {fileID: 1937007098}
   - {fileID: 1658600691}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2317,6 +2317,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13163dec39deaa547890ea523fe21b67, type: 2}
   m_IsPrefabAsset: 0
+--- !u!4 &931939320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4826233249734144, guid: d40c9fe439b899e429d008e6d3c1ae38,
+    type: 2}
+  m_PrefabInternal: {fileID: 1605687011}
 --- !u!1 &936906476
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,8 +2966,9 @@ Transform:
   m_Children:
   - {fileID: 1430569348}
   - {fileID: 796483212}
+  - {fileID: 931939320}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1058395188
 Prefab:
@@ -4505,7 +4511,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1056666994}
     m_Modifications:
     - target: {fileID: 4826233249734144, guid: d40c9fe439b899e429d008e6d3c1ae38, type: 2}
       propertyPath: m_LocalPosition.x
@@ -4521,15 +4527,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4826233249734144, guid: d40c9fe439b899e429d008e6d3c1ae38, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4826233249734144, guid: d40c9fe439b899e429d008e6d3c1ae38, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4826233249734144, guid: d40c9fe439b899e429d008e6d3c1ae38, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4826233249734144, guid: d40c9fe439b899e429d008e6d3c1ae38, type: 2}
       propertyPath: m_LocalRotation.w
